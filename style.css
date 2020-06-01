@@ -1,0 +1,283 @@
+@media(max-width: 1900px){
+    h1{
+        color: black;
+        vertical-align: middle;
+    }
+
+    body{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        align-self: auto;
+        flex-wrap: nowrap;
+        background-color: white;
+    }
+
+    label[for="button"]{
+        float: right;
+        margin: 15px 15px 0 0;
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+    }
+
+    #button{
+        display: none;
+    }
+
+    label[for="button"]{
+        display: none;
+    }
+    
+    *{
+    font-family: Helvetica, arial;
+    margin: 0;
+    padding: 0;
+    }
+
+    header{
+        background-color: #888;
+        height: 106px;
+        text-align: left;
+        padding: 0 0 10px 0;
+    }
+
+    #logo {
+        margin: 1.5% 0 0 10%;
+        float: left;
+        vertical-align: middle;
+    }
+    
+    #conteudoForm{
+        margin-top: 5em;
+        height: 300px;
+    }
+    
+    #esqForm{
+        margin: 0 auto;
+        transform: translate(500px);
+        float: left;
+    }
+    
+    #dirForm{
+        transform: translate(-450px);
+        float: right;
+        margin: 0 auto;
+    }
+    
+    #dirForm form input{
+        width: 263px;
+    }
+
+    .menu{
+        float: right;
+        padding: 0 8% 0 0;
+    }
+    .menu ul{
+        list-style: none;
+        position: relative;
+    }
+
+    .menu ul li{
+        float: left;
+    }
+
+    .menu a{
+        text-align: center;
+        display: block;
+        padding: 42px 20px 40px 20px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu a:hover{
+        background-color: #111111;
+        color:  #888;
+        text-decoration: none;
+    }
+
+    #div_center{
+        text-align: center;
+        background-image: url(180207-next-imgs-mba-2018-21-1-1040x589.png);
+        background-position: center;
+        margin: 0.2em auto 5em auto;
+        background-size: 100%;
+        color: white;
+        text-shadow: 1px 1px 1px #111111;
+        height: 400px;
+        width: 80%;
+        padding: auto 0;
+        margin-bottom: 50px;
+    }
+
+    .item{
+        background-color: gainsboro;
+        border-radius: 5px;
+        color: #fff;
+        padding: 15px;
+        margin: 5px 25px;
+        width: 25%;
+        text-align: center;
+        color: black;
+    }
+    
+    .item a{
+        
+    }
+    
+    .item b{
+        position: relative;
+        z-index: 2;
+        text-shadow: 1px solid black;
+        color: black;
+        text-align: center; 
+        display: block; 
+        margin: 2em 0 0 0;
+    }
+
+    .item img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+    
+    .container{
+        max-width: 100% !important;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center
+    }
+    
+    #img1{
+        margin: 0 0 0 86px;
+        display: block;
+        align-content: center;
+        border-radius: 50px;
+        width: 80px;
+        height: 80px;
+        margin-bottom: 24px;
+    }
+
+    #img2{
+        margin: 0 0 0 86px;
+        display: block;
+        align-content: center;
+        border-radius: 50px;
+        width: 80px;
+        height: 80px;
+        margin-bottom: 24px;
+    }
+
+    #img3{
+        margin: 0 0 0 86px;
+        display: block;
+        align-content: center;
+        border-radius: 50px;
+        width: 80px;
+        height: 80px;
+        margin-bottom: 24px;
+    }
+
+    #img4{
+        margin: 0 0 0 86px;
+        display: block;
+        align-content: center;
+        border-radius: 50px;
+        width: 80px;
+        height: 80px;
+        margin-bottom: 24px;
+    }
+
+
+    footer{
+        margin-top: 50px;
+        clear: both;
+        height: auto;
+        background-color: #888;
+        text-align: center;
+        padding: 5px;
+    }
+}
+
+@media(max-width: 800px){
+    
+    #logo{
+        margin: 0;
+    }
+    
+    header{
+        text-align: center;
+    }
+    
+    .menu a{
+        color: white;
+    }
+    
+    h1{
+        padding: 30px 0 0 160px;
+    }
+    
+    .menu ul li{
+        border: 1px solid #222;
+        width: 100%;
+        float: none;
+    }
+    
+    label[for="button"]{
+        display: block;
+    }
+    
+    #button:checked ~ .menu{
+        margin-top: 15px;
+    }
+    
+    .menu{
+        background-color: #333;
+        padding: 0px;
+        width: 100%;
+        margin-top: -120%;
+        transition: all .4s;
+    }
+    
+    #div_center{
+        background-image: url(180207-next-imgs-mba-2018-21-1-1040x589.png);
+        background-position: center;
+        margin: 0 0 0 10%;
+        clear: both;
+        color: white;
+        text-shadow: 1px 1px 1px #111111;
+        padding: 100px 0 0 0;
+        height: 150px;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .item{
+        border-radius: 0;
+        width: 100%;
+    }
+    
+    .container{
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+    }
+    
+    footer{
+        clear: both;
+        background-color: #888;
+        text-align: center;
+        padding: 10px;
+    }
+}
